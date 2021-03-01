@@ -16,7 +16,7 @@ void main()
   step = 10;
 
   fahr = lower;
-  printf("\n%4s\t%4s\n", "\u00B0C", "\u00B0F");
+  printf("\n%4s\t%4s\n", "\u00B0F", "\u00B0C");
   printf("---------------\n\n");
   while (fahr <= upper) {
     celsius = 5 * ( fahr - 32 ) / 9;
