@@ -13,8 +13,7 @@ legal in character constants, so '\n' stands for the value
 of newline character which is 10 in ASCII. One should note
 carefully that '\n' is a single character; and in expressions
 is just an integer; on the other hand, "\n" is a string constant
-that happens to contain only one character.
-*/
+that happens to contain only one character. */
 
 void main()
 {
