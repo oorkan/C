@@ -3,7 +3,7 @@
 void main()
 {
   int c;
-  double numlines;
+  double numlines = 0;
 
   while ( (c = getchar()) != EOF ) {
   	if ( c == '\n' ) {
