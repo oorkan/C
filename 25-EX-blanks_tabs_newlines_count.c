@@ -11,7 +11,7 @@ void main()
   while ( (c = getchar()) != EOF ) {
   	if ( c == '\n' ) ++numlines;
   	if ( c == ' ' ) ++numspaces;
-  	if ( c == '	' )	++numtabs;
+  	if ( c == '	' ) ++numtabs;
   }
   printf("Spaces: %.0f\n", numspaces);
   printf("Tabs: %.0f\n", numtabs);
