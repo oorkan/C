@@ -2,6 +2,7 @@
 
 /*
   type arrayName[arraySize];
+  https://www.geeksforgeeks.org/arrays-in-c-cpp/
 
   The sizeof() function in C is a built-in function that is used
   to calculate the size (in bytes) that a data type occupies in ​the 
