@@ -5,7 +5,7 @@
 
 **------ COMPILING ------**
 ```c
-cc <lesson.c> -o <outputBinary.bin>
+cc <lesson.c> -o <lesson.bin>
 ```
 
 **------ REFERENCES ------**
