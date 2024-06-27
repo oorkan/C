@@ -4,15 +4,15 @@
 // The range of both int and float depends on the machine that's used
 // 16-bit ints lie between [-32768, +32767] and are common
 // 32-bit ints are common too
-// A float number is typically a 32-bit quantity, with at lease six significant digits
+// A float number is typically a 32-bit quantity, with at least six significant digits
 // and magnitude generally between about 10(e-38) and 10(e+38)
 
 /* some basic data types in C
 
-    char        character - a single byte
+    char      character - a single byte
     short     short integer
-    int         integer
-    long        long integer
+    int       integer
+    long      long integer
     double    double-precision floating point
     float     floating point
 
