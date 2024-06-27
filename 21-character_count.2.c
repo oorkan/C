@@ -7,15 +7,15 @@ part which is zero in our case. */
 
 void main()
 {
-  int c;
-  double numchars;
+    int c;
+    double numchars;
 
-  numchars = 0;
-  while ( ( c = getchar() ) != EOF ) {
-    // omit new line chars
-    if (c != '\n') {
-      ++numchars;
+    numchars = 0;
+    while ( ( c = getchar() ) != EOF ) {
+        // omit new line chars
+        if (c != '\n') {
+            ++numchars;
+        }
     }
-  }
-  printf("%.0f\n", numchars);
+    printf("%.0f\n", numchars);
 }

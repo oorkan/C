@@ -9,9 +9,9 @@
 
 void main()
 {
-  int c;
+    int c;
 
-  while ( ( c = getchar() ) != EOF ) {
-    putchar(c);
-  }
+    while ( ( c = getchar() ) != EOF ) {
+        putchar(c);
+    }
 }

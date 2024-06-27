@@ -2,7 +2,7 @@
 
 void main()
 {
-  char hello[5] = { 'h', 'e', 'l', 'l', 'o' };
+    char hello[5] = { 'h', 'e', 'l', 'l', 'o' };
 
-  printf("The second letter of the word \"hello\" is \"%c\" \n", hello[1]);
+    printf("The second letter of the word \"hello\" is \"%c\" \n", hello[1]);
 }

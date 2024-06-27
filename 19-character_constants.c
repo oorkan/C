@@ -17,13 +17,13 @@ that happens to contain only one character. */
 
 void main()
 {
-  printf("%d\t%s\n", 'J', "J");
-  printf("%d\t%s\n", 'o', "o");
-  printf("%d\t%s\n", 'h', "h");
-  printf("%d\t%s\n", 'n', "n");
-  printf("%d\t%s\n", 'i', "i");
-  printf("%d\t%s\n", 's', "s");
-  printf("%d\t%s\n", '4', "4");
-  printf("%d\t%s\n", '0', "0");
-  printf("%d\t%s\n", '\n', "\\n");
+    printf("%d\t%s\n", 'J', "J");
+    printf("%d\t%s\n", 'o', "o");
+    printf("%d\t%s\n", 'h', "h");
+    printf("%d\t%s\n", 'n', "n");
+    printf("%d\t%s\n", 'i', "i");
+    printf("%d\t%s\n", 's', "s");
+    printf("%d\t%s\n", '4', "4");
+    printf("%d\t%s\n", '0', "0");
+    printf("%d\t%s\n", '\n', "\\n");
 }

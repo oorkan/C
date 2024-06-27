@@ -15,7 +15,7 @@
 
 void main()
 {
-  int c = getchar();
-  putchar(c);
-  printf("\n");
+    int c = getchar();
+    putchar(c);
+    printf("\n");
 }

@@ -9,16 +9,16 @@
 
 void main()
 {
-  printf("\\n - ");
-  printf("hello world\n");
+    printf("\\n - ");
+    printf("hello world\n");
 
-  printf("\\t - ");
-  printf("hello\tworld\n");
+    printf("\\t - ");
+    printf("hello\tworld\n");
 
-  printf("\\b - ");
-  printf("\\b - hello\b world\n");
+    printf("\\b - ");
+    printf("\\b - hello\b world\n");
 
-  printf("\\\" - ");
-  printf("\"hello world\"\n");
+    printf("\\\" - ");
+    printf("\"hello world\"\n");
 }
 

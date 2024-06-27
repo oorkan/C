@@ -9,15 +9,15 @@ input to overflow an int counter. The conversion specification %ld tells
 
 void main()
 {
-  int c;
-  long numchars;
+    int c;
+    long numchars;
 
-  numchars = 0;
-  while ( ( c = getchar() ) != EOF ) {
-    // omit new line chars
-    if (c != '\n') {
-      ++numchars;
+    numchars = 0;
+    while ( ( c = getchar() ) != EOF ) {
+        // omit new line chars
+        if (c != '\n') {
+            ++numchars;
+        }
     }
-  }
-  printf("%ld\n", numchars);
+    printf("%ld\n", numchars);
 }

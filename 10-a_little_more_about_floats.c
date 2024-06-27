@@ -10,11 +10,11 @@
 
 void main()
 {
-  float float1;
-  int int1;
+    float float1;
+    int int1;
 
-  float1 = 2.5;
-  int1 = 4;
+    float1 = 2.5;
+    int1 = 4;
 
-  printf("2.5 multiplied by 4 equals: %.1f\n", float1 * int1);
+    printf("2.5 multiplied by 4 equals: %.1f\n", float1 * int1);
 }

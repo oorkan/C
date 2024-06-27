@@ -9,12 +9,12 @@
 
 /* some basic data types in C
 
-  char    character - a single byte
-  short   short integer
-  int     integer
-  long    long integer
-  double  double-precision floating point
-  float   floating point
+    char        character - a single byte
+    short     short integer
+    int         integer
+    long        long integer
+    double    double-precision floating point
+    float     floating point
 
 */
 
@@ -26,19 +26,19 @@
 
 void main()
 {
-  int fahr, celsius;
-  int lower, upper, step;
+    int fahr, celsius;
+    int lower, upper, step;
 
-  lower = 0;
-  upper = 300;
-  step = 10;
+    lower = 0;
+    upper = 300;
+    step = 10;
 
-  fahr = lower;
-  printf("\n°F\t°C\n");
-  printf("---------------\n\n");
-  while (fahr <= upper) {
-    celsius = 5 * ( fahr - 32 ) / 9;
-    printf("%d\t%d\n", fahr, celsius);
-    fahr = fahr + step;
-  }
+    fahr = lower;
+    printf("\n°F\t°C\n");
+    printf("---------------\n\n");
+    while (fahr <= upper) {
+        celsius = 5 * ( fahr - 32 ) / 9;
+        printf("%d\t%d\n", fahr, celsius);
+        fahr = fahr + step;
+    }
 }

@@ -17,10 +17,10 @@
 
 void main()
 {
-  printf("\tIn physics, gravitational acceleration is the \
+    printf("\tIn physics, gravitational acceleration is the \
 acceleration of an object in free fall within a vacuum, \
 and equals to %.2f m/s².\n\n", GRAVITATIONAL_ACCELERATION);
-  
-  printf("\tWe know a lot about gravity from the works of \
+
+    printf("\tWe know a lot about gravity from the works of \
 the great scientist, sir %s.\n", NEWTON);
 }

@@ -4,9 +4,9 @@
 
 void main()
 {
-  int c;
-  c = getchar();
-  if ( c == EOF ) {
-    printf("%d\n", EOF);
-  }
+    int c;
+    c = getchar();
+    if ( c == EOF ) {
+        printf("%d\n", EOF);
+    }
 }

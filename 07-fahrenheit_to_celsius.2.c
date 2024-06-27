@@ -8,19 +8,19 @@
 
 void main()
 {
-  int fahr, celsius;
-  int lower, upper, step;
+    int fahr, celsius;
+    int lower, upper, step;
 
-  lower = 0;
-  upper = 300;
-  step = 10;
+    lower = 0;
+    upper = 300;
+    step = 10;
 
-  fahr = lower;
-  printf("\n%4s\t%4s\n", "\u00B0F", "\u00B0C");
-  printf("---------------\n\n");
-  while (fahr <= upper) {
-    celsius = 5 * ( fahr - 32 ) / 9;
-    printf("%3d\t%3d\n", fahr, celsius);
-    fahr = fahr + step;
-  }
+    fahr = lower;
+    printf("\n%4s\t%4s\n", "\u00B0F", "\u00B0C");
+    printf("---------------\n\n");
+    while (fahr <= upper) {
+        celsius = 5 * ( fahr - 32 ) / 9;
+        printf("%3d\t%3d\n", fahr, celsius);
+        fahr = fahr + step;
+    }
 }

@@ -12,10 +12,10 @@ exits. */
 
 void main()
 {
-  int c;
-  double numchars;
+    int c;
+    double numchars;
 
-  numchars = 0;
-  for ( numchars = 0; (c = getchar()) != EOF && c != '\n'; ++numchars );
-  printf("%.0f\n", numchars);
+    numchars = 0;
+    for ( numchars = 0; (c = getchar()) != EOF && c != '\n'; ++numchars );
+    printf("%.0f\n", numchars);
 }
