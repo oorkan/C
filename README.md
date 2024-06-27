@@ -3,6 +3,11 @@
 &nbsp;
 &nbsp;
 
+**------ COMPILING ------**
+```c
+cc <lesson.c> -o <outputBinary>
+```
+
 **------ REFERENCES ------**
 
 &nbsp;
